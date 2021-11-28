@@ -1,0 +1,77 @@
+$color_white: #ffffff;
+$color_primary: #DC780B;
+$color_main: #150C01;
+.btn {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 13px 30px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  &:active,
+  &:hover,
+  &:focus {
+    background: $color_white;
+    color: $color_primary;
+  }
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $color_main;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.content {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+._img {
+  position: relative;
+  
+  & img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #DC780B;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.subtitle {
+  font-family: 'Philosopher', sans-serif;
+  font-weight: bold;
+  font-size: 31.25px;
+  line-height: 35px;
+  text-transform: capitalize;
+  color: #150C01;
+}
+.text {  
+  font-size: 16px;
+  line-height: 24px;
+  color: #150C01;
+  opacity: 0.7;
+}
