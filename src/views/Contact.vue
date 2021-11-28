@@ -23,7 +23,7 @@ export default {
 }
 .wrap {
   max-width: 750px;
-  padding: 115px 0;
+  padding: 115px 30px;
   margin: 0 auto;
 }
 .contact__title,
@@ -53,5 +53,17 @@ export default {
   background: #DC780B;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+@media (max-width: 450px){
+  .wrap {
+    padding: 50px 30px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    & input {
+      margin-bottom: 15px;
+    }
+  }
 }
 </style>

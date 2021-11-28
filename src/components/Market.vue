@@ -90,7 +90,7 @@ $colorMainDark: #150C01;
 }
 @media (max-width: 450px) {
   .btn-store {
-    padding: 5px 10px;
+    padding: 5px 10px 5px 40px;
     margin-right: 5px;
   }
 }

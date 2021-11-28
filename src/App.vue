@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="content">
         <!-- <nav-bar v-if="!$route.fullPath.includes('login')"></nav-bar> -->
-        <navbar></navbar>
+        <nav-bar></nav-bar>
         <burger-menu></burger-menu>
       </div>
     </div>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import Navbar from "./components/NavBar.vue";
+import NavBar from "./components/NavBar.vue";
 import BurgerMenu from './components/Burger.vue'
 import FooterComponent from './components/Footer.vue'
 import './Normalize.css'
@@ -21,16 +21,16 @@ import './UI.scss'
 export default {
   name: "App",
   components: {
-    Navbar,
+    NavBar,
     BurgerMenu,
     FooterComponent
   },
-  methods: {
-      logOut() {
-      localStorage.clear();
-      this.$router.push("/login");
-    },
-  },
+  // methods: {
+  //     logOut() {
+  //     localStorage.clear();
+  //     this.$router.push("/login");
+  //   },
+  // }
 };
 </script>
 

@@ -1,4 +1,4 @@
-# vue-project
+# vue-3-food
 
 ## Project setup
 ```
