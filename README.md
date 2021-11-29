@@ -1,5 +1,10 @@
-# vue-3-food
+# vue-3
 
+Project Food.
+Used vue, vue router, normalize, babel, webpack.
+
+Registration in progress...
+Buy food in progress...
 ## Project setup
 ```
 yarn install
