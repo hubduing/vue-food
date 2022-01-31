@@ -25,7 +25,7 @@
             </div>            
           </div>
         </div>
-        <button class="btn btn-more">Learn More</button>
+        <!-- <button class="btn btn-more">Learn More</button> -->
       </section>
     </div>
   </div>
